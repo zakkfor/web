@@ -1,7 +1,6 @@
 
 
 
-
 ul {
     list-style: none;
 }
@@ -25,6 +24,10 @@ header nav a {
     
 }
 
+.logo {
+    display: flex;
+    float: left;
+}
 
 header nav a:hover {
     text-decoration: underline 2px;
@@ -41,13 +44,14 @@ footer {
 
 body {
     background-color: #808080 ;
+    margin: auto;
 }
 
 h1{
     text-align: center;
 }
 
- iframe {
+iframe {
     margin-top: 20px;
     
 }
@@ -58,4 +62,12 @@ h1{
 }
 td {
     text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+
