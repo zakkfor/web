@@ -21,6 +21,9 @@
             </ul>
         </nav>
     </header>
+    <button onclick="switchTheme('light-theme')">Світла тема</button>
+    <button onclick="switchTheme('dark-theme')">Темна тема</button>
+    <button onclick="switchTheme('body')">Звичайна</button>
 
     <div class="cont">
          <h1>Counter Strike 2</h1>
@@ -35,13 +38,16 @@
         <p>Долучайтеся до світу CS2 та станьте професійним гравцем в цій захоплюючій грі!</p>
 
         <h2>Зображення CS2</h2>
-        <img src="https://www.thesun.co.uk/wp-content/uploads/2023/03/CS2.png?w=1440" width="700" height="300" frameborder="0" allowfullscreen><br>
+        <div class="dynamicimage"><img  src="https://www.thesun.co.uk/wp-content/uploads/2023/03/CS2.png?w=1440" width="700" height="300" frameborder="0" allowfullscreen><br></div>
+        
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nSE38xjMLqE?si=cKVZe3zQx2t8PZMq" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nSE38xjMLqE?si=cKVZe3zQx2t8PZMq" frameborder="0" allowfullscreen></iframe></br>
+        <button onclick="scrollToTop()">Прокрутити до верху</button>
     </div>
 
     <footer>
         <p>&copy; 2023 Counter-Strike</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
