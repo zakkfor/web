@@ -9,7 +9,9 @@
 </head>
 <body>
     <header>
-        <img class= "logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Counter-Strike_CS_logo.svg/1024px-Counter-Strike_CS_logo.svg.png" width="60px" height="50">
+        <img class= "logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Counter-Strike_CS_logo.svg/1024px-Counter-Strike_CS_logo.svg.png"
+         width="60px" height="50">
+
 
         <nav>
             <ul>
@@ -20,28 +22,30 @@
             </ul>
         </nav>
     </header>
+    <button onclick="switchTheme('light-theme')">Світла тема</button>
+    <button onclick="switchTheme('dark-theme')">Темна тема</button>
+    <button onclick="switchTheme('body')">Звичайна</button>
 
     <div class="cont">
         <h1>CS 1.6: Counter-Strike 1.6</h1>
         <p>Counter-Strike 1.6, або CS 1.6, є однією з найпопулярніших версій легендарної серії Counter-Strike. Гра розроблена компанією Valve і завоювала мільйони прихильників по всьому світу.</p>
 
         <h2>Основні особливості CS 1.6:</h2>
-
-         <p>
+        <p>
             <li>Легендарні карти, такі як de_dust2 і de_inferno</li>
             <li>Ігровий процес, що вимагає стратегії та командної гри</li>
             <li>Багато режимів гри, включаючи збори та знищення ворожої бомби</li>
             <li>Можливість грати онлайн з друзями та гравцями з усього світу</li>
         </p>
 
-
-        <h2>CS 1.6 Highlights: </h2>
-        
+        <h2>CS 1.6 Highlights: </h2></br>
+        <button onclick="scrollToTop()">Прокрутити до верху</button>
     </div>
 
     <footer>
         
         <p>&copy; 2023 Counter-Strike</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
